@@ -1,0 +1,54 @@
+{
+    "name": "CheatConsoleInputs",
+    "maps": [
+        {
+            "name": "CheatConsole",
+            "id": "051bdf25-1a89-4865-88f4-c601a07fec99",
+            "actions": [
+                {
+                    "name": "SwitchCommand",
+                    "type": "Button",
+                    "id": "338f00a9-ee7c-4b36-b89a-9a1bc8b7aad2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Enable/DisableConsole",
+                    "type": "Button",
+                    "id": "dba7bd25-35e6-4426-ad08-d61549a7e7f0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7e86380e-c516-44b2-bddf-9437cc772ae9",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchCommand",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5f9946a3-4688-4f95-83ed-63effbd798b9",
+                    "path": "<Keyboard>/alt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Enable/DisableConsole",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
